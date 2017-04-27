@@ -25,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="intro.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="intro.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doc/intro.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -34,6 +34,16 @@
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dsotmc-may-2017.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dsotmc-may-2017.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,7 +76,7 @@
         </entry>
       </file>
       <file leaf-file-name="core_test.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/gavindeschutter/core_test.clj">
+        <entry file="file://$PROJECT_DIR$/test/dsotmc_may_2017/core_test.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
               <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
@@ -76,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gavindeschutter/core.clj">
+      <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dsotmc_may_2017/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+            <state relative-caret-position="110">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -101,6 +111,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>dsofmc</find>
+      <find>gavin</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -118,6 +129,8 @@
         <option value="$PROJECT_DIR$/CHANGELOG.md" />
         <option value="$PROJECT_DIR$/project.clj" />
         <option value="$PROJECT_DIR$/doc/intro.md" />
+        <option value="$PROJECT_DIR$/gavindeschutter.iml" />
+        <option value="$PROJECT_DIR$/dsotmc-may-2017.iml" />
       </list>
     </option>
   </component>
@@ -175,7 +188,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gavindeschutter" />
+              <option name="myItemId" value="dsotmc_may_2017" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -194,7 +207,7 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
-  <component name="ReplState" timestamp="1493267789812">{:repl-history {:ide [], :local [&quot;(slurp \&quot;street_signs.csv\&quot;)&quot; &quot;(def f me)&quot; &quot;(def f (slurp \&quot;street_signs.csv\&quot;))&quot; &quot;(ffirst f)&quot; &quot;(take 2 f)&quot; &quot;(\&quot;Description\&quot; (first f))&quot; &quot;(get \&quot;Description\&quot; (first f))&quot; &quot;(get (first f) \&quot;Description\&quot; )&quot; &quot;(clojure.xml/parse (get (first f) \&quot;Description\&quot;))&quot; &quot;(def f (parse-csv (slurp \&quot;street_signs.csv\&quot;)))&quot; &quot;(def l (first f))&quot; &quot;(get l \&quot;Description\&quot;)&quot; &quot;(hickory.core/parse-fragment (hickory.core/parse (get l \&quot;Description\&quot;)))&quot; &quot;(hickory.core/as-hiccup (hickory.core/parse (get l \&quot;Description\&quot;)))&quot; &quot;(hickory.core/as-hickory (hickory.core/parse (get l \&quot;Description\&quot;)))&quot; &quot;((hickory.core/parse-fragment (get l \&quot;Description\&quot;)))&quot; &quot;f&quot; &quot;(first f)&quot; &quot;(hickory.core/parse-fragment (get l \&quot;Description\&quot;))&quot; &quot;(hickory.core/parse (get l \&quot;Description\&quot;))&quot; &quot;(map hickory.core/as-hiccup (hickory.core/parse-fragment (get l \&quot;Description\&quot;)))&quot; &quot;(count (map hickory.core/as-hiccup (hickory.core/parse-fragment (get l \&quot;Description\&quot;))))&quot; &quot;(last (count (map hickory.core/as-hiccup (hickory.core/parse-fragment (get l \&quot;Description\&quot;)))))&quot; &quot;((count (map hickory.core/as-hiccup (hickory.core/parse-fragment (get l \&quot;Description\&quot;)))))&quot; &quot;(ffirst (map hickory.core/as-hiccup (hickory.core/parse-fragment (get l \&quot;Description\&quot;))))&quot; &quot;(last (map hickory.core/as-hiccup (hickory.core/parse-fragment (get l \&quot;Description\&quot;))))&quot; &quot;(last (extract-object l))&quot; &quot;(count (extract-object l))&quot; &quot;(last (last (extract-object l)))&quot; &quot;(last (last (last (extract-object l))))&quot; &quot;(last (last (last (last (extract-object l)))))&quot; &quot;(last (last (last (last (last (extract-object l))))))&quot; &quot;(last (last (last (last (last (last (extract-object l)))))))&quot; &quot;(fist (last (last (last (last (last (extract-object l)))))))&quot; &quot;(first (last (last (last (last (last (extract-object l)))))))&quot; &quot;(ffirst (last (last (last (last (last (extract-object l)))))))&quot; &quot;(map println (last (last (last (last (last (extract-object l)))))))&quot; &quot;(hs/select (extract-object l))&quot; &quot;(first (extract-object l))&quot; &quot;(hickory/as-hiccup (extract-object l))&quot; &quot;(hickory/as-hickory (extract-object l))&quot; &quot;(:contnet (hickory/as-hickory (extract-object l)))&quot; &quot;(:content (hickory/as-hickory (extract-object l)))&quot; &quot;(hs/select (hs/child (hs/tag :table)) (hickory/as-hickory (extract-object l)))&quot; &quot;(first (hs/select (hs/child (hs/tag :table) (hs/tag :td) (hickory/as-hickory (extract-object l)))))&quot; &quot;(first (hs/select (hs/child (hs/tag :table) (hs/tag :td))) (hickory/as-hickory (extract-object l)))&quot; &quot;(first (hs/select (hs/child (hs/tag :td)) (hickory/as-hickory (extract-object l))))&quot; &quot;(first (hs/select (hs/child (hs/tag :table) (hs/tag :td)) (hickory/as-hickory (extract-object l))))&quot; &quot;(hs/select (hs/child (hs/tag :td)) (hickory/as-hickory (extract-object l)))&quot; &quot;(count (hs/select (hs/child (hs/tag :td)) (hickory/as-hickory (extract-object l))))&quot; &quot;(drop 2 (hs/select (hs/child (hs/tag :td)) (hickory/as-hickory (extract-object l))))&quot; &quot;(extract-object l)&quot; &quot;(extract-table l)&quot; &quot;(get-field (first (first (partition-field-with-value (extract-table l)))))&quot; &quot;(first (first (partition-field-with-value (extract-table l))))&quot; &quot;\n(first (partition-field-with-value (extract-table l)))&quot; &quot;(link-kv (first (partition-field-with-value (extract-table l))))&quot; &quot;(first (partition-field-with-value (extract-table l)))&quot; &quot;((partition-field-with-value (extract-table l)))&quot; &quot;(partition-field-with-value (extract-table l))&quot; &quot;(get (build-object (partition-field-with-value (extract-table l))) \&quot;SIGN_DIR4\&quot;)&quot; &quot;(nil? (get (build-object (partition-field-with-value (extract-table l))) \&quot;SIGN_DIR4\&quot;))&quot; &quot;(build-object (partition-field-with-value (extract-table l)))&quot; &quot;l&quot; &quot;(build-object l)&quot; &quot;(doseq (build-object l))&quot; &quot;(count f)&quot; &quot;(map build-object f)&quot; &quot;(map \&quot;SIGN_FACE1\&quot; objs)&quot; &quot;(count (objs f))&quot; &quot;(count objs)&quot; &quot;(frequencies (map \&quot;Name\&quot; objs))&quot; &quot;(frequencies (map #(get % \&quot;Name\&quot;) objs))&quot; &quot;(frequencies (map #(get % \&quot;SIGN_FACE1\&quot;) objs))&quot; &quot;(first objs)&quot; &quot;(frequencies (map #(get % \&quot;INSTL_TYPE\&quot;) objs))&quot; &quot;(count (map #(get % \&quot;GISOBJID\&quot;) objs))&quot;], :remote []}}</component>
+  <component name="ReplState" timestamp="1493267890084">{:repl-history {:ide [], :local [&quot;(slurp \&quot;street_signs.csv\&quot;)&quot; &quot;(def f me)&quot; &quot;(def f (slurp \&quot;street_signs.csv\&quot;))&quot; &quot;(ffirst f)&quot; &quot;(take 2 f)&quot; &quot;(\&quot;Description\&quot; (first f))&quot; &quot;(get \&quot;Description\&quot; (first f))&quot; &quot;(get (first f) \&quot;Description\&quot; )&quot; &quot;(clojure.xml/parse (get (first f) \&quot;Description\&quot;))&quot; &quot;(def f (parse-csv (slurp \&quot;street_signs.csv\&quot;)))&quot; &quot;(def l (first f))&quot; &quot;(get l \&quot;Description\&quot;)&quot; &quot;(hickory.core/parse-fragment (hickory.core/parse (get l \&quot;Description\&quot;)))&quot; &quot;(hickory.core/as-hiccup (hickory.core/parse (get l \&quot;Description\&quot;)))&quot; &quot;(hickory.core/as-hickory (hickory.core/parse (get l \&quot;Description\&quot;)))&quot; &quot;((hickory.core/parse-fragment (get l \&quot;Description\&quot;)))&quot; &quot;f&quot; &quot;(first f)&quot; &quot;(hickory.core/parse-fragment (get l \&quot;Description\&quot;))&quot; &quot;(hickory.core/parse (get l \&quot;Description\&quot;))&quot; &quot;(map hickory.core/as-hiccup (hickory.core/parse-fragment (get l \&quot;Description\&quot;)))&quot; &quot;(count (map hickory.core/as-hiccup (hickory.core/parse-fragment (get l \&quot;Description\&quot;))))&quot; &quot;(last (count (map hickory.core/as-hiccup (hickory.core/parse-fragment (get l \&quot;Description\&quot;)))))&quot; &quot;((count (map hickory.core/as-hiccup (hickory.core/parse-fragment (get l \&quot;Description\&quot;)))))&quot; &quot;(ffirst (map hickory.core/as-hiccup (hickory.core/parse-fragment (get l \&quot;Description\&quot;))))&quot; &quot;(last (map hickory.core/as-hiccup (hickory.core/parse-fragment (get l \&quot;Description\&quot;))))&quot; &quot;(last (extract-object l))&quot; &quot;(count (extract-object l))&quot; &quot;(last (last (extract-object l)))&quot; &quot;(last (last (last (extract-object l))))&quot; &quot;(last (last (last (last (extract-object l)))))&quot; &quot;(last (last (last (last (last (extract-object l))))))&quot; &quot;(last (last (last (last (last (last (extract-object l)))))))&quot; &quot;(fist (last (last (last (last (last (extract-object l)))))))&quot; &quot;(first (last (last (last (last (last (extract-object l)))))))&quot; &quot;(ffirst (last (last (last (last (last (extract-object l)))))))&quot; &quot;(map println (last (last (last (last (last (extract-object l)))))))&quot; &quot;(hs/select (extract-object l))&quot; &quot;(first (extract-object l))&quot; &quot;(hickory/as-hiccup (extract-object l))&quot; &quot;(hickory/as-hickory (extract-object l))&quot; &quot;(:contnet (hickory/as-hickory (extract-object l)))&quot; &quot;(:content (hickory/as-hickory (extract-object l)))&quot; &quot;(hs/select (hs/child (hs/tag :table)) (hickory/as-hickory (extract-object l)))&quot; &quot;(first (hs/select (hs/child (hs/tag :table) (hs/tag :td) (hickory/as-hickory (extract-object l)))))&quot; &quot;(first (hs/select (hs/child (hs/tag :table) (hs/tag :td))) (hickory/as-hickory (extract-object l)))&quot; &quot;(first (hs/select (hs/child (hs/tag :td)) (hickory/as-hickory (extract-object l))))&quot; &quot;(first (hs/select (hs/child (hs/tag :table) (hs/tag :td)) (hickory/as-hickory (extract-object l))))&quot; &quot;(hs/select (hs/child (hs/tag :td)) (hickory/as-hickory (extract-object l)))&quot; &quot;(count (hs/select (hs/child (hs/tag :td)) (hickory/as-hickory (extract-object l))))&quot; &quot;(drop 2 (hs/select (hs/child (hs/tag :td)) (hickory/as-hickory (extract-object l))))&quot; &quot;(extract-object l)&quot; &quot;(extract-table l)&quot; &quot;(get-field (first (first (partition-field-with-value (extract-table l)))))&quot; &quot;(first (first (partition-field-with-value (extract-table l))))&quot; &quot;\n(first (partition-field-with-value (extract-table l)))&quot; &quot;(link-kv (first (partition-field-with-value (extract-table l))))&quot; &quot;(first (partition-field-with-value (extract-table l)))&quot; &quot;((partition-field-with-value (extract-table l)))&quot; &quot;(partition-field-with-value (extract-table l))&quot; &quot;(get (build-object (partition-field-with-value (extract-table l))) \&quot;SIGN_DIR4\&quot;)&quot; &quot;(nil? (get (build-object (partition-field-with-value (extract-table l))) \&quot;SIGN_DIR4\&quot;))&quot; &quot;(build-object (partition-field-with-value (extract-table l)))&quot; &quot;l&quot; &quot;(build-object l)&quot; &quot;(doseq (build-object l))&quot; &quot;(count f)&quot; &quot;(map build-object f)&quot; &quot;(map \&quot;SIGN_FACE1\&quot; objs)&quot; &quot;(count (objs f))&quot; &quot;(count objs)&quot; &quot;(frequencies (map \&quot;Name\&quot; objs))&quot; &quot;(frequencies (map #(get % \&quot;Name\&quot;) objs))&quot; &quot;(frequencies (map #(get % \&quot;SIGN_FACE1\&quot;) objs))&quot; &quot;(first objs)&quot; &quot;(frequencies (map #(get % \&quot;INSTL_TYPE\&quot;) objs))&quot; &quot;(count (map #(get % \&quot;GISOBJID\&quot;) objs))&quot;], :remote []}}</component>
   <component name="RunManager" selected="Clojure REPL.Lein">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -696,12 +709,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1493260726305</updated>
-      <workItem from="1493260729888" duration="5472000" />
+      <workItem from="1493260729888" duration="5572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5472000" />
+    <option name="totallyTimeSpent" value="5572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -774,15 +787,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gavindeschutter/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/gavindeschutter/core_test.clj">
+    <entry file="file://$PROJECT_DIR$/test/dsotmc_may_2017/core_test.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
@@ -819,6 +824,22 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dsotmc-may-2017.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dsotmc_may_2017/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
