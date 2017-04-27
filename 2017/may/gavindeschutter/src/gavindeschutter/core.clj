@@ -1,4 +1,4 @@
-(ns dsofmc-may-2017.core
+(ns dsotmc-may-2017.core
   (:require [csv-map.core :refer [parse-csv]]
             [clojure.xml]
             [hickory.core :as hickory]

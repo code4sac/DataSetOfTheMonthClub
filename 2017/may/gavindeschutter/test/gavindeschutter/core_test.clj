@@ -1,6 +1,6 @@
-(ns dsofmc-may-2017.core-test
+(ns dsotmc-may-2017.core-test
   (:require [clojure.test :refer :all]
-            [dsofmc-may-2017.core :refer :all]))
+            [dsotmc-may-2017.core :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."
