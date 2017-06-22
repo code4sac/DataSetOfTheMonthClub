@@ -4,34 +4,57 @@
             [hickory.core :as hickory]
             [hickory.select :as hs]))
 
-(defn extract-table [row]
-  (->> (get row "Description")
-        hickory/parse
-       hickory/as-hickory
-       (hs/select (hs/child (hs/tag :td)))
-       (drop 2)))
+(def direction-map
+  {:lat "Y"
+   :lng "﻿X"})
 
-(defn partition-field-with-value [elements]
-  (partition 2 elements))
 
-(defn get-field [e]
-  (-> e :content first))
+(def pole-map
+  {:type "POLE_TYPE"
+   :id "GISOBJID"
+   :installation "INSTL_TYPE"
+   :status "OBJ_STATUS"
+   :comment "FIELD_COMMENT"})
 
-(defn sanitize-value [v]
-  (if (= v "<Null>")
-    nil
-    v))
 
-(defn link-kv [p]
-  (let [[k v] (map get-field p)]
-    (assoc {} k (sanitize-value v))))
+(defn- build-object [row map]
+  (reduce (fn [a [k v]] (assoc a k (get row v)))
+          {}
+          map))
 
-(defn build-object [row]
-  (->> (extract-table row)
-       partition-field-with-value
-       (map link-kv)
+
+(defn retrieve-sign [row x]
+  (let [dir (str "SIGN_DIR" x)
+        face (str "SIGN_FACE" x)]
+    {x {:dir (get row dir)
+        :face (get row face)}}))
+
+
+(defn- remove-blank-signs [m]
+  (remove (fn [[_ {:keys [dir face]}]]
+            (every? clojure.string/blank? [dir face]))
+          m))
+
+
+(defn- retrieve-signs [row]
+  (->> (for [x (range 1 6)] (retrieve-sign row x))
        (apply merge)
-       (merge (dissoc row "Description"))))
+       remove-blank-signs
+       (into {})))
 
-(def objs (map build-object
-               (-> (slurp "street_signs.csv") parse-csv)))
+
+(defn build-sign [row]
+  (let [pole (build-object row pole-map)
+        direction (build-object row direction-map)
+        signs (retrieve-signs row)]
+    (for [[pos {:keys [dir face]}] signs]
+      (assoc direction :id (str (-> pole :id) "-" pos)
+                       :pole pole
+                       :position pos
+                       :direction dir
+                       :face face))))
+
+
+(def objs (mapcat build-sign
+                  (-> (slurp "Signs.csv") parse-csv)))
+
